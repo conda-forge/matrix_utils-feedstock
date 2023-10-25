@@ -1,11 +1,11 @@
-About matrix_utils
-==================
+About matrix_utils-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/matrix_utils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/brightway-lca/matrix_utils
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/matrix_utils-feedstock/blob/main/LICENSE.txt)
 
 Summary: Utilities to build and iterate on matrices using datapackages 
 
