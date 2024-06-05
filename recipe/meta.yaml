@@ -16,15 +16,15 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.9
     - pip
 
   run:
+    - bw_processing >=0.9.5
+    - fsspec
     - numpy
-    - python >=3.6
+    - python >=3.9
     - scipy
-    - pandas
-    - bw_processing >=0.8
     - stats_arrays
 
 test:
