@@ -20,11 +20,11 @@ requirements:
     - pip
 
   run:
-    - bw_processing >=0.9.5
+    - bw_processing >=1.0
     - fsspec
     - numpy
     - python >=3.9
-    - scipy
+    - scipy >=1.10
     - stats_arrays
 
 test:
