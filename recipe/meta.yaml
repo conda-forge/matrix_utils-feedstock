@@ -1,5 +1,5 @@
 {% set name = "matrix_utils" %}
-{% set version = "0.4.3" %}
+{% set version = "0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b3205657f13ba74df7eac34dbf5f814e25e7857a0bd7fc254d2b5b9b9ff98f54
+  sha256: 006bd402274e24a0980bae06d0141de8f50371149268df375f0244ca08d55ce7
 
 build:
   noarch: python
@@ -20,11 +20,11 @@ requirements:
     - pip
 
   run:
-    - bw_processing >=0.9.5
+    - bw_processing >=1.0
     - fsspec
     - numpy
     - python >=3.9
-    - scipy
+    - scipy >=1.10
     - stats_arrays
 
 test:
