@@ -11,12 +11,12 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - setuptools
 
@@ -24,7 +24,7 @@ requirements:
     - bw_processing >=1.0
     - fsspec
     - numpy
-    - python >=3.9
+    - python >={{ python_min }}
     - scipy >=1.10
     - stats_arrays
 
@@ -35,6 +35,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/brightway-lca/matrix_utils
