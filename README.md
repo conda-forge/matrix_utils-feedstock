@@ -31,7 +31,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-matrix_utils-green.svg)](https://anaconda.org/conda-forge/matrix_utils) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/matrix_utils.svg)](https://anaconda.org/conda-forge/matrix_utils) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/matrix_utils.svg)](https://anaconda.org/conda-forge/matrix_utils) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/matrix_utils.svg)](https://anaconda.org/conda-forge/matrix_utils) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-matrix__utils-green.svg)](https://anaconda.org/conda-forge/matrix_utils) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/matrix_utils.svg)](https://anaconda.org/conda-forge/matrix_utils) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/matrix_utils.svg)](https://anaconda.org/conda-forge/matrix_utils) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/matrix_utils.svg)](https://anaconda.org/conda-forge/matrix_utils) |
 
 Installing matrix_utils
 =======================
