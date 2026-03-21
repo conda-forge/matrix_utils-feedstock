@@ -1,5 +1,5 @@
 {% set name = "matrix_utils" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6a0cad30489a170b22a102e245d3d61f57aed46ce47f27e0bab4499eb98d8da1
+  sha256: e813695ccbdda9bfe3999fcc92150b4925055f0bdeb7640b641aa51a3a81e03c
 
 build:
   noarch: python
