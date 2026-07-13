@@ -1,5 +1,5 @@
 {% set name = "matrix_utils" %}
-{% set version = "0.8" %}
+{% set version = "0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 431f50d743423556edafafe7155dadacdd301084685421f98ba94e87201298c5
+  sha256: a785b5c113a371e64c2fdc6ab7b719ac80dd4ec5388e74ed3eaebd941d27d28d
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - setuptools
 
   run:
-    - bw_processing >=1.0
+    - bw_processing >=1.6
     - fsspec
     - numpy
     - python >={{ python_min }}
